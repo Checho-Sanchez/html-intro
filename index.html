@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOJA DE VIDA</title>
+
+    <style>
+      .text {
+        text-align: center;
+      }
+
+      body {
+        min-height: 100%;
+      }
+      body {
+        color: black;
+        background-color: dodgerblue;
+      }
+
+      * {
+        margin: 5%;
+        padding: 5;
+        box-sizing: border-box;
+      }
+
+      html {
+        background-color: #000;
+      }
+      body {
+        min-height: 90vh;
+        max-width: 800px;
+        background-color: beige;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 align="center">HOJA DE VIDA</h1>
+    <h1 class="text">SERGIO STEVEN HOYOS SÁNCHEZ</h1>
+
+    <div class="datos">
+      <h3 class="datos">DATOS PERSONALES</h3>
+      <ul>
+        <li>Numero de Identificacion : <strong>1.152.187.544</strong></li>
+        <li>Fecha de nacimiento: <strong>20 Jun 1990</strong></li>
+        <li>Lugar de nacimiento: <strong>Medellin - Antioquia</strong></li>
+        <li>
+          Correo Electronico : <strong>Checho.sanchezsh@gmail.com</strong>
+        </li>
+        <li>
+          Red Social Linkedin :
+          <strong
+            ><a
+              href="https://www.linkedin.com/in/sergio-steven-hoyos-s%C3%A1nchez-/"
+              >Linkedin</a
+            ></strong
+          >
+        </li>
+        <li>
+          GitHub :
+          <strong>
+            <a href="https://github.com/Checho-Sanchez"
+              >Checho Sanchez</a
+            ></strong
+          >
+        </li>
+        <li>
+          Ubicacion :
+          <strong
+            ><a href="https://goo.gl/maps/tqmJcHsBtVdDXM4t5"
+              >Ubicacion</a
+            ></strong
+          >
+        </li>
+      </ul>
+    </div>
+    <h3 class="datos">EXPERIENCIA LABORAL</h3>
+    <ul>
+      <li>Asesor Contac Center : <strong>3 años</strong></li>
+      <li>Conductor : <strong>4 años</strong></li>
+      <li>Desarrollador FullStack : <strong>4 años</strong></li>
+    </ul>
+
+    <h3 class="datos">HABILIDADES TECNICAS Y TECNOLOGICAS</h3>
+
+    <table cellspacing="3" cellpaddiing="2" border="5">
+      <td rowspan="10">Habilidades Tecnicas Interes a Desarrollar</td>
+      <tr>
+        <th>HTML</th>
+        <th>CSS</th>
+        <th>JAVASCRIPT</th>
+        <th>REACT</th>
+      </tr>
+
+      <tr>
+        <th>NODE JS</th>
+        <th>EXPRESS</th>
+        <th>MONGO DB</th>
+        <th>ANGULAR</th>
+      </tr>
+    </table>
+    <br />
+
+    <table cellspacing="4" cellpadding="8" border="4">
+      <td rowspan="10">Proposito Tecnicos a Desarrollar y Habilidades</td>
+      <tr>
+        <td>Resolucion de problemas</td>
+      </tr>
+      <tr>
+        <td>Data Science y Big Data</td>
+      </tr>
+      <tr>
+        <td>Desarrollo de Software y Aplicaciones Web</td>
+      </tr>
+      <tr>
+        <td>Implementacion de editores de texto</td>
+      </tr>
+      <tr>
+        <td>Dominio de sofware en plataformas</td>
+      </tr>
+      <tr>
+        <td>Inteligencia Artificial y Machine Learning</td>
+      </tr>
+      <tr>
+        <td>Manejar estructuras y algorismos de datos</td>
+      </tr>
+    </table>
+    <br />
+
+    <div class="formulario">
+      <form method="POST">
+        <div class="form-group">
+          <label for="nombre">Nombre :</label>
+          <input
+            type="text"
+            class="form-control"
+            name="nombre"
+            id="nombre"
+            placeholder="nombre..."
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Email :</label>
+          <input
+            type="email"
+            class="form-control"
+            name="email"
+            id="email"
+            placeholder="email..."
+          />
+        </div>
+        <br />
+        <div class="form-group">
+          <label for="exampleTextarea">Mensaje : </label>
+          <textarea
+            class="form-control"
+            title="cuadro"
+            name="mensaje"
+            id="mensaje"
+            rows="4"
+          >
+          </textarea>
+        </div>
+        <div>
+          <br />
+          <button class="btn btn-primary" type="submit">Contactar</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
